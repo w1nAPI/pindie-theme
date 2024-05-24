@@ -10,6 +10,7 @@ import Styles from "./CardsSlider.module.css";
 import Link from "next/link";
 
 export const CardsSlider = (props) => {
+  console.log(props.data)
   useEffect(() => {
     const options = {
       loop: false,
